@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+  "extends": ["typedoc/tsdoc.json"],
+  "noStandardTags": false,
+  "tagDefinitions": [
+    {
+      "tagName": "@memberof",
+      "syntaxKind": "modifier"
+    },
+    {
+      "tagName": "@listens",
+      "syntaxKind": "block"
+    },
+    {
+      "tagName": "@implements",
+      "syntaxKind": "modifier"
+    }
+  ]
+}

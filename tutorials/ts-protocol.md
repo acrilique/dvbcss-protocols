@@ -28,7 +28,7 @@ Example Setup Data message:
 ```
 This instructs the TV to select a particular timeline available to it (PTS from
 broadcast in the above example) and sets a condition that we only want to
-receive timestamps when the content ID (reported via [CSS-CII protocol]{@tutorial cii-protocol}) begins
+receive timestamps when the content ID (reported via [CSS-CII protocol](cii-protocol.md)) begins
 with the specified string (the contentIdStem).
 
 ### 2. Timestamps are received
@@ -99,4 +99,3 @@ on how long it can delay (buffer):
         }
     }
 ```
-

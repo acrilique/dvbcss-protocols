@@ -1,5 +1,5 @@
 **This is only an introduction to the CSS-CII protocol.**
- * **See the [docs for the CII namespace]{@link dvbcss-protocols.CII} to understand
+ * **See the [docs for the CII namespace]{@link CII} to understand
    how to write client or server code using this library.**
  * **See clause 6 of the [DVB CSS specification](http://www.etsi.org/standards-search?search=103+286&page=1&title=1&keywords=1&ed=1&sortby=1) for full detailed semantics of the protocol.**
  * **See clause 13 of the [HbbTV 2 specification](http://hbbtv.org/resource-library/) to
@@ -43,10 +43,10 @@ The properties that can be included are as follows:
    
  * `mrsUrl` (string|null) The URL of an MRS server, or `null` if none is available.
  
- * `tsUrl` (string|null) The URL of the [CSS-TS]{@tutorial ts-protocol} server in the TV that is used for
+ * `tsUrl` (string|null) The URL of the [CSS-TS](ts-protocol.md) server in the TV that is used for
    Timeline Synchronisation.
    
- * `wcUrl` (string|null) The URL of the [Wall Clock]{@tutorial wc-protocol} server in the TV. This is of the
+ * `wcUrl` (string|null) The URL of the [Wall Clock](wc-protocol.md) server in the TV. This is of the
    form "udp://&lt;address&gt;:&lt;port&gt;"
    
  * `teUrl` (string|null) The URL of the trigger event service in the TV.
@@ -83,4 +83,3 @@ An example of a message that updates only certain properties:
         "contentIdStatus"    : "partial",
     }
 ```
-

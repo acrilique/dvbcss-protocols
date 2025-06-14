@@ -10,11 +10,14 @@ build/
 dist/
 sdist/
 node_modules/
-doc/
+docs/
 package-lock.json
 .grunt/
 *~
 **/*~
+
+**/*.spec.*
+**/*.tsbuildinfo
 
 # eclipse
 .metadata

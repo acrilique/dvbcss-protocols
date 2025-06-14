@@ -25,7 +25,7 @@ WebSockets, but this is not typically supported by TVs).
 
 The client is assumed to already know the host and port number of the CSS-WC
 server (usually from the information received via the
-[CSS-CII protocol]{@tutorial cii-protocol}).
+[CSS-CII protocol](cii-protocol.md)).
 
 The client sends a Wall Clock protocol “request” message to the server.
 The server sends back a Wall Clock protocol “response” message to the client.
@@ -115,4 +115,3 @@ Example: (with explanatory comments that must be removed for it to be valid JSON
 | otvn          | Number     | Request sent timevalue (nanos) | nanoseconds part    |
 | rt            | Number     | Request received timevalue     | seconds+fractions   |
 | tt            | Number     | Response sent timevalue        | seconds+fractions   |
-

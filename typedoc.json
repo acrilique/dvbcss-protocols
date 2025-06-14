@@ -1,0 +1,6 @@
+{
+  "entryPoints": ["packages/dvbcss-clocks", "packages/dvbcss-node"],
+  "entryPointStrategy": "packages",
+  "out": "docs",
+  "projectDocuments": ["tutorials/*.md"],
+}
