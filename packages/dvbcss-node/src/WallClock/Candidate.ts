@@ -15,7 +15,7 @@
 *****************************************************************************/
 
 import { Correlation, CorrelatedClock } from "dvbcss-clocks";
-import { WallClockMessage } from "./WallClockMessage";
+import { WallClockMessage } from "./WallClockMessage.js";
 
 /**
  * @memberof dvbcss-protocols.WallClock

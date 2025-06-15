@@ -86,8 +86,8 @@
  */
 
 import { EventEmitter } from "events";
-import { WebSocketAdaptor } from "../SocketAdaptors/WebSocketAdaptor";
-import CIIClientProtocol from "./CIIClientProtocol";
+import { WebSocketAdaptor } from "../SocketAdaptors/WebSocketAdaptor.js";
+import CIIClientProtocol from "./CIIClientProtocol.js";
 
 export class AdaptorWrapper extends EventEmitter {
     public adaptor: WebSocketAdaptor;

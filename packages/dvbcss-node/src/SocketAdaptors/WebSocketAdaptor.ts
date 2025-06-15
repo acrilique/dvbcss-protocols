@@ -28,8 +28,8 @@
  * (such as a {@link WebSocket} or a node.js [dgram_Socket]{@link dgram_Socket}) and the {@link ProtocolHandler}.
  */
 
-import { ProtocolHandler } from "../INTERFACES/ProtocolHandler";
-import { SocketAdaptor } from "../INTERFACES/SocketAdaptor";
+import { ProtocolHandler } from "../INTERFACES/ProtocolHandler.js";
+import { SocketAdaptor } from "../INTERFACES/SocketAdaptor.js";
 
 /**
  * @memberof dvbcss-protocols.SocketAdaptors

@@ -55,8 +55,8 @@
  * 
  */
 
-import { WebSocketAdaptor } from "../SocketAdaptors/WebSocketAdaptor";
-import { TSClientProtocol, TSClientProtocolOptions } from "./TSClientProtocol";
+import { WebSocketAdaptor } from "../SocketAdaptors/WebSocketAdaptor.js";
+import { TSClientProtocol, TSClientProtocolOptions } from "./TSClientProtocol.js";
 import { CorrelatedClock } from "dvbcss-clocks";
 
 /**

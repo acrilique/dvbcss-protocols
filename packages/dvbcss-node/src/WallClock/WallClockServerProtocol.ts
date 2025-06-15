@@ -16,9 +16,9 @@
 
 import { EventEmitter } from "events";
 import { CorrelatedClock, ClockBase } from "dvbcss-clocks";
-import { WallClockMessageTypes } from "./WallClockMessage";
-import { ProtocolSerialiser } from "../INTERFACES/ProtocolSerialiser";
-import { ProtocolHandler } from "../INTERFACES/ProtocolHandler";
+import { WallClockMessageTypes } from "./WallClockMessage.js";
+import { ProtocolSerialiser } from "../INTERFACES/ProtocolSerialiser.js";
+import { ProtocolHandler } from "../INTERFACES/ProtocolHandler.js";
 
 export interface WallClockServerProtocolOptions {
     precision?: number;

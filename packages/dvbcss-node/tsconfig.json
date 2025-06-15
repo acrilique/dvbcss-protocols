@@ -6,5 +6,8 @@
     "rootDir": "./src"
   },
   "include": ["src/**/*"],
-  "references": [{ "path": "../dvbcss-clocks" }]
+  "exclude": ["node_modules", "dist"],
+  "references": [{
+    "path": "../dvbcss-clocks"
+  }]
 }

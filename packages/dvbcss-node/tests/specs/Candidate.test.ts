@@ -1,6 +1,6 @@
-import { Candidate } from "../../dist/WallClock/Candidate";
-import { WallClockMessage, WallClockMessageTypes } from "../../dist/WallClock/WallClockMessage";
-import CorrelatedClock from "../../../dvbcss-clocks/dist/CorrelatedClock";
+import { Candidate } from "../../src/WallClock/Candidate.js";
+import { WallClockMessage, WallClockMessageTypes } from "../../src/WallClock/WallClockMessage.js";
+import CorrelatedClock from "../../../dvbcss-clocks/src/CorrelatedClock.js";
 
 describe("Candidate", () => {
     it("exists", () => {

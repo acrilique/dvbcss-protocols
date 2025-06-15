@@ -1,4 +1,7 @@
-import { WebSocketAdaptor, TSClientProtocol, TSSetupMessage, ControlTimestamp } from '../../';
+import { WebSocketAdaptor } from '../../src/SocketAdaptors/WebSocketAdaptor.js';
+import { TSClientProtocol } from '../../src/TimelineSynchronisation/TSClientProtocol.js';
+import { TSSetupMessage } from '../../src/TimelineSynchronisation/TSSetupMessage.js';
+import { ControlTimestamp } from '../../src/TimelineSynchronisation/ControlTimestamp.js';
 import { CorrelatedClock, DateNowClock } from 'dvbcss-clocks';
 import { EventEmitter } from 'events';
 import { vi } from 'vitest';

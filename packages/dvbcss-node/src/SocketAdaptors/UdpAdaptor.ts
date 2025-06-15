@@ -14,8 +14,8 @@
  * limitations under the License.
 *****************************************************************************/
 
-import { ProtocolHandler } from "../INTERFACES/ProtocolHandler";
-import { SocketAdaptor } from "../INTERFACES/SocketAdaptor";
+import { ProtocolHandler } from "../INTERFACES/ProtocolHandler.js";
+import { SocketAdaptor } from "../INTERFACES/SocketAdaptor.js";
 import { Socket as DgramSocket, RemoteInfo } from "dgram";
 
 /**

@@ -1,4 +1,6 @@
-import { BinarySerialiser, WallClockServerProtocol, WallClockMessageTypes, WallClockMessage } from "../../";
+import { BinarySerialiser} from "../../src/WallClock/BinarySerialiser.js";
+import { WallClockServerProtocol } from "../../src/WallClock/WallClockServerProtocol.js";
+import { WallClockMessageTypes, WallClockMessage } from "../../src/WallClock/WallClockMessage.js";
 import * as clocks from "dvbcss-clocks";
 
 describe("WallClockServerProtocol UDP", () => {

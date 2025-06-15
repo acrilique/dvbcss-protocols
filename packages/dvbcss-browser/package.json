@@ -2,6 +2,7 @@
   "name": "dvbcss-browser",
   "version": "0.0.4",
   "description": "Browser-specific components for DVB-CSS protocols",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "Apache-2.0",

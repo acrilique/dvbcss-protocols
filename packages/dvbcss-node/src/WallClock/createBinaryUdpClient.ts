@@ -14,9 +14,9 @@
  * limitations under the License.
 *****************************************************************************/
 
-import { UdpAdaptor } from "../SocketAdaptors/UdpAdaptor";
-import { WallClockClientProtocol, WallClockClientProtocolOptions } from "./WallClockClientProtocol";
-import { BinarySerialiser } from "./BinarySerialiser";
+import { UdpAdaptor } from "../SocketAdaptors/UdpAdaptor.js";
+import { WallClockClientProtocol, WallClockClientProtocolOptions } from "./WallClockClientProtocol.js";
+import { BinarySerialiser } from "./BinarySerialiser.js";
 import { CorrelatedClock } from "dvbcss-clocks";
 import { Socket as DgramSocket } from "dgram";
 

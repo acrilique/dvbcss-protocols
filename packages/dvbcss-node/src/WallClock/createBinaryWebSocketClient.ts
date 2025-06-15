@@ -14,9 +14,9 @@
  * limitations under the License.
 *****************************************************************************/
 
-import { WebSocketAdaptor } from "../SocketAdaptors/WebSocketAdaptor";
-import { WallClockClientProtocol, WallClockClientProtocolOptions } from "./WallClockClientProtocol";
-import { BinarySerialiser } from "./BinarySerialiser";
+import { WebSocketAdaptor } from "../SocketAdaptors/WebSocketAdaptor.js";
+import { WallClockClientProtocol, WallClockClientProtocolOptions } from "./WallClockClientProtocol.js";
+import { BinarySerialiser } from "./BinarySerialiser.js";
 import { CorrelatedClock } from "dvbcss-clocks";
 
 /**

@@ -1,4 +1,4 @@
-import { WebSocketAdaptor } from '../../';
+import { WebSocketAdaptor } from '../../src/SocketAdaptors/WebSocketAdaptor.js';
 import { EventEmitter } from 'events';
 import { vi } from 'vitest';
 

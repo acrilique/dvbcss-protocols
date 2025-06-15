@@ -1,4 +1,4 @@
-import { WallClockMessageTypes, WallClockMessage } from "../../";
+import { WallClockMessageTypes, WallClockMessage } from "../../src/WallClock/WallClockMessage.js";
 
 describe("WallClockMessage", () => {
     it("exists", () => {

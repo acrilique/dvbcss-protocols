@@ -2,6 +2,7 @@
   "name": "dvbcss-node",
   "version": "0.0.4",
   "description": "Node.js-specific components for DVB-CSS protocols",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "Apache-2.0",
@@ -16,5 +17,8 @@
   "dependencies": {
     "ws": "^8.18.2",
     "dvbcss-clocks": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
   }
 }

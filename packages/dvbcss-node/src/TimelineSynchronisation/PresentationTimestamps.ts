@@ -19,7 +19,7 @@
  *     PresentationTimestamps.deserialise : arraybuffer coercion
 *****************************************************************************/
 
-import PresentationTimestamp from "./PresentationTimestamp";
+import PresentationTimestamp from "./PresentationTimestamp.js";
 
 /**
  * @memberof dvbcss-protocols.TimelineSynchronisation

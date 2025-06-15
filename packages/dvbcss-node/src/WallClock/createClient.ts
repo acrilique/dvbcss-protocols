@@ -73,9 +73,9 @@
  */
 
 import { CorrelatedClock } from "dvbcss-clocks";
-import { WallClockClientProtocol, WallClockClientProtocolOptions } from "./WallClockClientProtocol";
-import { ProtocolSerialiser } from "../INTERFACES/ProtocolSerialiser";
-import { SocketAdaptor } from "../INTERFACES/SocketAdaptor";
+import { WallClockClientProtocol, WallClockClientProtocolOptions } from "./WallClockClientProtocol.js";
+import { ProtocolSerialiser } from "../INTERFACES/ProtocolSerialiser.js";
+import { SocketAdaptor } from "../INTERFACES/SocketAdaptor.js";
 
 /**
  * @memberof dvbcss-protocols.WallClock

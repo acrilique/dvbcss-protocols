@@ -1,4 +1,5 @@
-import { UdpAdaptor, ProtocolHandler } from '../../';
+import { UdpAdaptor } from '../../src/SocketAdaptors/UdpAdaptor.js';
+import { ProtocolHandler } from '../../src/INTERFACES/ProtocolHandler.js';
 import { EventEmitter } from 'events';
 import { RemoteInfo, Socket } from 'dgram';
 

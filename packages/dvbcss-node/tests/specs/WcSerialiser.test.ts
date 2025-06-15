@@ -1,4 +1,6 @@
-import { BinarySerialiser, JsonSerialiser,WallClockMessageTypes, WallClockMessage  } from "../../";
+import { BinarySerialiser } from "../../src/WallClock/BinarySerialiser.js";
+import { JsonSerialiser } from "../../src/WallClock/JsonSerialiser.js";
+import { WallClockMessageTypes, WallClockMessage } from "../../src/WallClock/WallClockMessage.js";
 
 const makeBinaryMsg = (arrayByteNumbers: number[]): Uint8Array => {
     const binarymsg = new Uint8Array(32);

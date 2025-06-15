@@ -14,8 +14,8 @@
  * limitations under the License.
 *****************************************************************************/
 
-import { WallClockMessage } from "./WallClockMessage";
-import { ProtocolSerialiser } from "../INTERFACES/ProtocolSerialiser";
+import { WallClockMessage } from "./WallClockMessage.js";
+import { ProtocolSerialiser } from "../INTERFACES/ProtocolSerialiser.js";
 
 interface SerialisedWallClockMessage {
     v: number;

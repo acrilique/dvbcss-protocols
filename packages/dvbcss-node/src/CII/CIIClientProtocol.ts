@@ -15,8 +15,8 @@
 *****************************************************************************/
 
 import { EventEmitter } from "events";
-import CIIMessage from "./CIIMessage";
-import { ProtocolHandler} from "../INTERFACES/ProtocolHandler";
+import CIIMessage from "./CIIMessage.js";
+import { ProtocolHandler} from "../INTERFACES/ProtocolHandler.js";
 
 /**
  * CII Client callback

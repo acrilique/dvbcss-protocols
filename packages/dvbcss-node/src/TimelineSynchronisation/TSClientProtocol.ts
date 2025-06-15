@@ -22,9 +22,9 @@
 
 import { EventEmitter } from "events";
 import { Correlation, CorrelatedClock } from "dvbcss-clocks";
-import { ProtocolHandler } from "../INTERFACES/ProtocolHandler";
-import { ControlTimestamp } from "./ControlTimestamp";
-import { TSSetupMessage } from "./TSSetupMessage";
+import { ProtocolHandler } from "../INTERFACES/ProtocolHandler.js";
+import { ControlTimestamp } from "./ControlTimestamp.js";
+import { TSSetupMessage } from "./TSSetupMessage.js";
 
 /**
  * @memberof dvbcss-protocols.TimelineSynchronisation

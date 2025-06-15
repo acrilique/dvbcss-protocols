@@ -1,4 +1,7 @@
-import { PresentationTimestamp, PresentationTimestamps, ControlTimestamp, TSSetupMessage } from '../../';
+import { PresentationTimestamp } from '../../src/TimelineSynchronisation/PresentationTimestamp.js'
+import { PresentationTimestamps } from '../../src/TimelineSynchronisation/PresentationTimestamps.js';
+import { ControlTimestamp } from '../../src/TimelineSynchronisation/ControlTimestamp.js'; 
+import { TSSetupMessage } from '../../src/TimelineSynchronisation/TSSetupMessage.js';
 
 describe('PresentationTimestamps', () => {
 	it('exists', () => {

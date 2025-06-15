@@ -14,7 +14,7 @@
  * limitations under the License.
 *****************************************************************************/
 
-import TimelineProperties from "./TimelineProperties";
+import TimelineProperties from "./TimelineProperties.js";
 
 /**
  * @memberof dvbcss-protocols.CII
