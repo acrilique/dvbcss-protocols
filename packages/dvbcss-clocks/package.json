@@ -15,9 +15,6 @@
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
   "files": [
     "src/**/*.ts",
     "AUTHORS",
@@ -25,8 +22,5 @@
     "README.md",
     "dist"
   ],
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "typescript": "^5.8.3"
-  }
+  "license": "Apache-2.0"
 }
