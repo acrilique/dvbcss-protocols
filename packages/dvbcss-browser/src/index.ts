@@ -7,6 +7,7 @@ export {
     ProtocolHandler,
     ProtocolSerialiser,
     SocketAdaptor,
+    AdaptorWrapper,
 
     WebSocketAdaptor,
 
