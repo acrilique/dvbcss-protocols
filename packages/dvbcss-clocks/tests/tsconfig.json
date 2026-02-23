@@ -1,0 +1,15 @@
+{
+    "include": [ "specs/**/*.ts" ],
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "nodenext",
+        "composite": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "nodenext",
+        "types": ["vitest/globals"],
+    },
+    "references": [{ "path": "../"}]
+}
