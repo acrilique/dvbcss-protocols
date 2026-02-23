@@ -1,7 +1,6 @@
 {
   "name": "@iimrd/dvbcss-protocols",
   "private": true,
-  "version": "0.1.0",
   "description": "Javascript library implementing client and server code for DVB CSS sync protocols, based on the original library developed by the BBC.",
   "keywords": [
     "dvb",
