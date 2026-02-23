@@ -6,5 +6,5 @@
     "rootDir": "./src"
   },
   "include": ["src/**/*"],
-  "references": [{ "path": "../dvbcss-node" }]
+  "references": [{ "path": "../dvbcss-clocks" }, { "path": "../dvbcss-node" }]
 }

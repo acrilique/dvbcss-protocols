@@ -87,12 +87,13 @@
 
 import { EventEmitter } from "events";
 import { WebSocketAdaptor } from "../SocketAdaptors/WebSocketAdaptor.js";
+import { SocketAdaptor } from "../INTERFACES/SocketAdaptor.js";
 import CIIClientProtocol from "./CIIClientProtocol.js";
 
 export class AdaptorWrapper extends EventEmitter {
-    public adaptor: WebSocketAdaptor;
+    public adaptor: SocketAdaptor;
 
-    constructor(ciiClientProtocol: CIIClientProtocol, adaptor: WebSocketAdaptor) {
+    constructor(ciiClientProtocol: CIIClientProtocol, adaptor: SocketAdaptor) {
         super();
         this.adaptor = adaptor;
 

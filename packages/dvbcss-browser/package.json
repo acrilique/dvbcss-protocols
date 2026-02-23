@@ -10,6 +10,7 @@
     "build": "tsc"
   },
   "dependencies": {
+    "dvbcss-clocks": "workspace:*",
     "dvbcss-node": "workspace:*"
   }
 }
