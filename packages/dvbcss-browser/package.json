@@ -1,6 +1,6 @@
 {
-  "name": "dvbcss-browser",
-  "version": "0.0.4",
+  "name": "@iimrd/dvbcss-browser",
+  "version": "0.1.0",
   "description": "Browser-specific components for DVB-CSS protocols",
   "type": "module",
   "main": "dist/index.js",

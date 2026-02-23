@@ -1,6 +1,6 @@
 {
-  "name": "dvbcss-clocks",
-  "version": "0.0.4",
+  "name": "@iimrd/dvbcss-clocks",
+  "version": "0.1.0",
   "description": "Javascript library implementing clock objects for modelling timelines. Useful in DVB CSS implementations.",
   "type": "module",
   "keywords": [

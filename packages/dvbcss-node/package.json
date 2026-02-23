@@ -1,6 +1,6 @@
 {
-  "name": "dvbcss-node",
-  "version": "0.0.4",
+  "name": "@iimrd/dvbcss-node",
+  "version": "0.1.0",
   "description": "Node.js-specific components for DVB-CSS protocols",
   "type": "module",
   "main": "dist/index.js",
