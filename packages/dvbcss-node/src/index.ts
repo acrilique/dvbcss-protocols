@@ -1,28 +1,27 @@
-export * from "./INTERFACES/ProtocolHandler.js";
-export * from "./INTERFACES/ProtocolSerialiser.js";
-export * from "./INTERFACES/SocketAdaptor.js";
+export { ProtocolHandler } from "./INTERFACES/ProtocolHandler.js";
+export { ProtocolSerialiser } from "./INTERFACES/ProtocolSerialiser.js";
+export { SocketAdaptor } from "./INTERFACES/SocketAdaptor.js";
 
-export * from "./SocketAdaptors/UdpAdaptor.js";
-export * from "./SocketAdaptors/WebSocketAdaptor.js";
+export { UdpAdaptor } from "./SocketAdaptors/UdpAdaptor.js";
+export { WebSocketAdaptor } from "./SocketAdaptors/WebSocketAdaptor.js";
 
-export * from "./CII/CIIClientProtocol.js";
-export * from "./CII/CIIMessage.js";
-export * from "./CII/createCIIClient.js";
-export * from "./CII/TimelineProperties.js";
+export { CIIClientProtocol, CIIClientProtocolOptions, ciiChangedCallback } from "./CII/CIIClientProtocol.js";
+export { CIIMessage } from "./CII/CIIMessage.js";
+export { createCIIClient, AdaptorWrapper } from "./CII/createCIIClient.js";
+export { TimelineProperties } from "./CII/TimelineProperties.js";
 
-export * from "./TimelineSynchronisation/ControlTimestamp.js";
-export * from "./TimelineSynchronisation/createTSClient.js";
-export * from "./TimelineSynchronisation/PresentationTimestamp.js";
-export * from "./TimelineSynchronisation/PresentationTimestamps.js";
-export * from "./TimelineSynchronisation/TSClientProtocol.js";
-export * from "./TimelineSynchronisation/TSSetupMessage.js";
-export * from "./TimelineSynchronisation/createTSClient.js";
+export { ControlTimestamp } from "./TimelineSynchronisation/ControlTimestamp.js";
+export { createTSClient } from "./TimelineSynchronisation/createTSClient.js";
+export { PresentationTimestamp } from "./TimelineSynchronisation/PresentationTimestamp.js";
+export { PresentationTimestamps } from "./TimelineSynchronisation/PresentationTimestamps.js";
+export { TSClientProtocol, TSClientProtocolOptions } from "./TimelineSynchronisation/TSClientProtocol.js";
+export { TSSetupMessage } from "./TimelineSynchronisation/TSSetupMessage.js";
 
-export * from "./WallClock/BinarySerialiser.js";
-export * from "./WallClock/Candidate.js";
+export { BinarySerialiser } from "./WallClock/BinarySerialiser.js";
+export { Candidate } from "./WallClock/Candidate.js";
 export { createClient as createWallClockClient } from "./WallClock/createClient.js";
-export * from "./WallClock/createJsonWebSocketClient.js";
-export * from "./WallClock/JsonSerialiser.js";
-export * from "./WallClock/WallClockClientProtocol.js";
-export * from "./WallClock/WallClockMessage.js";
-export * from "./WallClock/WallClockServerProtocol.js";
+export { createJsonWebSocketClient } from "./WallClock/createJsonWebSocketClient.js";
+export { JsonSerialiser } from "./WallClock/JsonSerialiser.js";
+export { WallClockMessage, WallClockMessageTypes } from "./WallClock/WallClockMessage.js";
+export { WallClockClientProtocol, WallClockClientProtocolOptions } from "./WallClock/WallClockClientProtocol.js";
+export { WallClockServerProtocol, WallClockServerProtocolOptions } from "./WallClock/WallClockServerProtocol.js";
