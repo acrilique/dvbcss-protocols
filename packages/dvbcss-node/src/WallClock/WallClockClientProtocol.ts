@@ -14,7 +14,7 @@
  * limitations under the License.
 *****************************************************************************/
 
-import { EventEmitter } from "events";
+import { EventEmitter } from "eventemitter3";
 import { WallClockMessage, WallClockMessageTypes } from "./WallClockMessage.js";
 import Candidate from "./Candidate.js";
 import { CorrelatedClock } from "@iimrd/dvbcss-clocks";

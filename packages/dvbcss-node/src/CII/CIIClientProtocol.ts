@@ -14,9 +14,9 @@
  * limitations under the License.
 *****************************************************************************/
 
-import { EventEmitter } from "events";
+import { EventEmitter } from "eventemitter3";
 import CIIMessage from "./CIIMessage.js";
-import { ProtocolHandler} from "../INTERFACES/ProtocolHandler.js";
+import { ProtocolHandler } from "../INTERFACES/ProtocolHandler.js";
 
 /**
  * CII Client callback

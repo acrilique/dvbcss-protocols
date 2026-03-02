@@ -85,7 +85,7 @@
  *
  */
 
-import { EventEmitter } from "events";
+import { EventEmitter } from "eventemitter3";
 import { WebSocketAdaptor } from "../SocketAdaptors/WebSocketAdaptor.js";
 import { SocketAdaptor } from "../INTERFACES/SocketAdaptor.js";
 import CIIClientProtocol from "./CIIClientProtocol.js";

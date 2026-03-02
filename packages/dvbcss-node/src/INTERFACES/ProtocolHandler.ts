@@ -14,7 +14,7 @@
  * limitations under the License.
 *****************************************************************************/
 
-import { EventEmitter } from "events";
+import { EventEmitter } from "eventemitter3";
 
 /**
  * Interface for code that implements the logic of a protocol.
@@ -42,15 +42,6 @@ export interface ProtocolHandler extends EventEmitter {
    * @param source Opaque data to be passed back when sending the response, to ensure it is routed back to the sender
    */
   handleMessage(msg: any, source: any): void;
-
-  /**
-   * @event send
-   * Protocol handler needs a message to be sent.
-   * @param msg The message payload to send
-   * @param routing Expresses the routing/destination. Opaque handle. If not defined, then goes to default destination (if there is one)
-   */
-  on(event: "send", listener: (msg: string | Uint8Array, routing?: any) => void): this;
-  emit(event: "send", msg: string | Uint8Array, routing?: any): boolean;
 
   isStarted(): boolean;
 }

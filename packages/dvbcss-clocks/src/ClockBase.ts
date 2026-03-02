@@ -21,7 +21,7 @@
  *     CorrelatedClock.prototype._rescheduleTimers
  ****************************************************************************/
 
-import { EventEmitter } from "events";
+import { EventEmitter } from "eventemitter3";
 
 let nextIdNum = 0;
 let nextTimeoutHandle = 0;

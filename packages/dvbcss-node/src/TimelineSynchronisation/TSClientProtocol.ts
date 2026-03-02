@@ -20,7 +20,7 @@
  *         availablility and change significance checks
 *****************************************************************************/
 
-import { EventEmitter } from "events";
+import { EventEmitter } from "eventemitter3";
 import { Correlation, CorrelatedClock } from "@iimrd/dvbcss-clocks";
 import { ProtocolHandler } from "../INTERFACES/ProtocolHandler.js";
 import { ControlTimestamp } from "./ControlTimestamp.js";
