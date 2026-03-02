@@ -72,7 +72,7 @@
  
  */
 
-import { CorrelatedClock } from "dvbcss-clocks";
+import { CorrelatedClock } from "@iimrd/dvbcss-clocks";
 import { WallClockClientProtocol, WallClockClientProtocolOptions } from "./WallClockClientProtocol.js";
 import { ProtocolSerialiser } from "../INTERFACES/ProtocolSerialiser.js";
 import { SocketAdaptor } from "../INTERFACES/SocketAdaptor.js";

@@ -17,7 +17,7 @@
 import { EventEmitter } from "events";
 import { WallClockMessage, WallClockMessageTypes } from "./WallClockMessage.js";
 import Candidate from "./Candidate.js";
-import { CorrelatedClock } from "dvbcss-clocks";
+import { CorrelatedClock } from "@iimrd/dvbcss-clocks";
 import { ProtocolSerialiser } from "../INTERFACES/ProtocolSerialiser.js";
 import { ProtocolHandler } from "../INTERFACES/ProtocolHandler.js";
 

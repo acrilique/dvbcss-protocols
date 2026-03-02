@@ -26,7 +26,7 @@ export {
     WallClockClientProtocol,
     WallClockMessage,
     WallClockServerProtocol
-} from 'dvbcss-node';
+} from '@iimrd/dvbcss-node';
 
 // Browser/TWA MessagePort transport
 export { MessagePortAdaptor } from './MessagePortAdaptor.js';

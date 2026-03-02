@@ -57,7 +57,7 @@
 
 import { WebSocketAdaptor } from "../SocketAdaptors/WebSocketAdaptor.js";
 import { TSClientProtocol, TSClientProtocolOptions } from "./TSClientProtocol.js";
-import { CorrelatedClock } from "dvbcss-clocks";
+import { CorrelatedClock } from "@iimrd/dvbcss-clocks";
 
 /**
  * @memberof dvbcss-protocols.TimelineSynchronisation

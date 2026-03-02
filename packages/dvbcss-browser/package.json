@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "license": "Apache-2.0",
   "dependencies": {
-    "dvbcss-clocks": "workspace:*",
-    "dvbcss-node": "workspace:*"
+    "@iimrd/dvbcss-clocks": "workspace:*",
+    "@iimrd/dvbcss-node": "workspace:*"
   }
 }

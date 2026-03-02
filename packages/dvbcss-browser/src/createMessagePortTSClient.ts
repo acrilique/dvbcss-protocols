@@ -14,8 +14,8 @@
  * limitations under the License.
 *****************************************************************************/
 
-import { TSClientProtocol, TSClientProtocolOptions } from "dvbcss-node";
-import { CorrelatedClock } from "dvbcss-clocks";
+import { TSClientProtocol, TSClientProtocolOptions } from "@iimrd/dvbcss-node";
+import { CorrelatedClock } from "@iimrd/dvbcss-clocks";
 import { MessagePortAdaptor } from "./MessagePortAdaptor.js";
 
 /**

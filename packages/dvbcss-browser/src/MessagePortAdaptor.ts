@@ -14,7 +14,7 @@
  * limitations under the License.
 *****************************************************************************/
 
-import { ProtocolHandler, SocketAdaptor } from "dvbcss-node";
+import { ProtocolHandler, SocketAdaptor } from "@iimrd/dvbcss-node";
 
 /**
  * Adaptor that manages a MessagePort and interfaces it to a protocol handler.

@@ -14,8 +14,8 @@
  * limitations under the License.
 *****************************************************************************/
 
-import { BinarySerialiser, WallClockClientProtocol, WallClockClientProtocolOptions } from "dvbcss-node";
-import { CorrelatedClock } from "dvbcss-clocks";
+import { BinarySerialiser, WallClockClientProtocol, WallClockClientProtocolOptions } from "@iimrd/dvbcss-node";
+import { CorrelatedClock } from "@iimrd/dvbcss-clocks";
 import { MessagePortAdaptor } from "./MessagePortAdaptor.js";
 
 /**

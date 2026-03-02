@@ -14,7 +14,7 @@
  * limitations under the License.
 *****************************************************************************/
 
-import { CorrelatedClock } from "dvbcss-clocks";
+import { CorrelatedClock } from "@iimrd/dvbcss-clocks";
 import { WallClockServerProtocol, WallClockServerProtocolOptions } from "./WallClockServerProtocol.js";
 import { ProtocolSerialiser } from "../INTERFACES/ProtocolSerialiser.js";
 import { SocketAdaptor } from "../INTERFACES/SocketAdaptor.js";

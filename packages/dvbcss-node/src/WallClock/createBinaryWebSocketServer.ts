@@ -17,7 +17,7 @@
 import { WebSocketAdaptor } from "../SocketAdaptors/WebSocketAdaptor.js";
 import { WallClockServerProtocol, WallClockServerProtocolOptions } from "./WallClockServerProtocol.js";
 import { BinarySerialiser } from "./BinarySerialiser.js";
-import { CorrelatedClock } from "dvbcss-clocks";
+import { CorrelatedClock } from "@iimrd/dvbcss-clocks";
 
 /**
  * @memberof dvbcss-protocols.WallClock

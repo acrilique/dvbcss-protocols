@@ -14,7 +14,7 @@
  * limitations under the License.
 *****************************************************************************/
 
-import { AdaptorWrapper, CIIClientProtocol, CIIClientProtocolOptions } from "dvbcss-node";
+import { AdaptorWrapper, CIIClientProtocol, CIIClientProtocolOptions } from "@iimrd/dvbcss-node";
 import { MessagePortAdaptor } from "./MessagePortAdaptor.js";
 
 /**

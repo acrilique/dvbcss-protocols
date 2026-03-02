@@ -21,7 +21,7 @@
 *****************************************************************************/
 
 import { EventEmitter } from "events";
-import { Correlation, CorrelatedClock } from "dvbcss-clocks";
+import { Correlation, CorrelatedClock } from "@iimrd/dvbcss-clocks";
 import { ProtocolHandler } from "../INTERFACES/ProtocolHandler.js";
 import { ControlTimestamp } from "./ControlTimestamp.js";
 import { TSSetupMessage } from "./TSSetupMessage.js";

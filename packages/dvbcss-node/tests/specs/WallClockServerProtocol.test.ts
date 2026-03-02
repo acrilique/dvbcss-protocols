@@ -1,7 +1,7 @@
 import { BinarySerialiser} from "../../src/WallClock/BinarySerialiser.js";
 import { WallClockServerProtocol } from "../../src/WallClock/WallClockServerProtocol.js";
 import { WallClockMessageTypes, WallClockMessage } from "../../src/WallClock/WallClockMessage.js";
-import * as clocks from "dvbcss-clocks";
+import * as clocks from "@iimrd/dvbcss-clocks";
 
 describe("WallClockServerProtocol UDP", () => {
     let wc_server: any;

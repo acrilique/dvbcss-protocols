@@ -14,7 +14,7 @@
  * limitations under the License.
 *****************************************************************************/
 
-import { Correlation, CorrelatedClock } from "dvbcss-clocks";
+import { Correlation, CorrelatedClock } from "@iimrd/dvbcss-clocks";
 import { WallClockMessage } from "./WallClockMessage.js";
 
 /**
